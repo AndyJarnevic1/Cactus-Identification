@@ -17,7 +17,7 @@ This relatively simple model achieved a 0.98 AUC score. While there is still roo
 -Keras \
 -TensorFlow \
 -Image Processing \
--Callbacks \
+-Callbacks 
 
 # Next Steps:
 In order to improve the performance of this model, there are two main directions I'd like to persue. The first is to experiment with different (deeper) architectures and see if the added expressivity of these models can overcome their propensity to overfit the training data.
