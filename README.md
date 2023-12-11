@@ -10,15 +10,12 @@ The model architecture uses two convolution layers with 20 and 15 layers respect
 
 # Results:
 
-This relatively simple model achieved a 0.98 AUC score. While there is still room for imporvement, this is a remarkably good score for a model with only two hidden layers.
+This model achieved a remarkable 0.996 AUC score. 
 
 # Skills Used:
 
 -Keras \
 -TensorFlow \
 -Image Processing \
--Callbacks 
-
-# Next Steps:
-In order to improve the performance of this model, there are two main directions I'd like to persue. The first is to experiment with different (deeper) architectures and see if the added expressivity of these models can overcome their propensity to overfit the training data.
-The second idea is to artificially increase the size of the training data by manipulating the images. Rotations should not affect the output of the model, so I will try to add rotated versions of the photos to the training set and see if this new data can improve the models performance.
+-Callbacks \
+-Image Manipulation
